@@ -62,14 +62,14 @@ function gameLoop() {
     }
 }
 
-let gameLimit = 3;
-let scoreBoard = { "Computer": 0, "Player": 0 };
-
-while (scoreBoard["Computer"] < gameLimit || scoreBoard["Player"] < gameLimit) {
-    let result = gameLoop();
-    if(result == 'You lose'){
-        scoreBoard["Computer"] += 1;
-    } else if (result == 'You win!') {
-        scoreBoard["Player"] += 1;
-    } 
-}
+//let scoreBoard = { "Computer": 0, "Player": 0 };
+//let gameLimit = 3;
+//
+//while (scoreBoard["Computer"] < gameLimit || scoreBoard["Player"] < gameLimit) {
+//    let result = gameLoop();
+//    if(result == 'You lose'){
+//        scoreBoard["Computer"] += 1;
+//    } else if (result == 'You win!') {
+//        scoreBoard["Player"] += 1;
+//    } 
+//}

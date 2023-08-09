@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+    font-family: "Fira Code", monospace;
+}
+
+body {
+    background-color: #FFFCF2;
+}
+
+.hero {
+    display: flex;
+    width: auto;
+    margin: 0px;
+    height: 20%;
+    background-color: #CCC5B9;
+    justify-content: center;
+    align-items: center;
+}
+
+.rps-button-area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
