@@ -24,6 +24,21 @@ body {
     align-items: center;
 }
 
+.scoreboard {
+    outline: 5px solid gray ;
+}
+.scoreboard h3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scorecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     height: 128px;
     width: 128px;
