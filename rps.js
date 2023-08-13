@@ -5,13 +5,17 @@ const scoreBoard = {
     computer: 0,
 };
 
-let player;
+let player = "";
 
-buttons.forEach(function(button) {
-  player = button.addEventListener('click', function() {
-    return this.getAttribute('class');
-  })
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        playerChoice(button.className);
+    });
 });
+
+function playerChoice(choice) {
+    return player = choice;
+}
 
 function computerChoice(choices) {
     return choices[Math.floor(Math.random() * choices.length)];
