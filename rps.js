@@ -1,17 +1,18 @@
 const choices = ['rock', 'paper', 'scissors'];
-const rockButton = document.querySelector('.rock');
-const paperButton = document.querySelector('.paper');
-const scissorsButton = document.querySelector('.scissors');
+const buttons = document.querySelectorAll('.rps-button');
 const scoreBoard = {
     player: 0,
     computer: 0,
 };
 
-function getPlayerChoice(choice) {
-    console.log(choice.toLowerCase());
+function game(){
+    while(scoreBoard.player < 3 || scoreBoard.computer < 3){
+        let computer = choices[Math.floor(Math.random() * choices.length)];
+        let player = buttons.forEach((button) => {
+            button.addEventListener('click', function() {
+                return button.id;
+            });
+        });
+    }
 }
 
-
-let computer = (choices) => choices[Math.floor(Math.random() * choices.length)];
-
-console.log(computer);
